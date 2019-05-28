@@ -1,4 +1,4 @@
-# kill-firefox-tabs
+# kill-firefox-tabs  [![Build Status](https://travis-ci.org/y-yudai/kill-firefox-tabs.svg?branch=master)](https://travis-ci.org/y-yudai/kill-firefox-tabs)
 
 > Kill all Firefox tabs to improve performance
 
