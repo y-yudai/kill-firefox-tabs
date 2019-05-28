@@ -1,0 +1,36 @@
+{
+  "name": "kill-firefox-tabs",
+  "version": "1.0.0",
+  "description": "Kill all Firefox tabs to improve performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": "y-yudai/kill-firefox-tabs",
+  "author": "Yudai Yamamoto",
+  "bin": "cli.js",
+  "license": "MIT",
+  "keywords": [
+    "firefox",
+    "browser",
+    "tabs",
+    "kill",
+    "killall",
+    "performance"
+  ],
+  "dependencies": {
+    "fkill": "^6.1.0",
+    "meow": "^5.0.0",
+    "ps-list": "^6.3.0"
+  },
+  "devDependencies": {
+    "ava": "*"
+  }
+}
